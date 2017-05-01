@@ -107,10 +107,10 @@ class App extends Component {
                 <Provider />
                 <div className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
-                    <h2>Welcome to React</h2>
+                    <h2>React Popup Demo For Seurat</h2>
                 </div>
                 <p className="App-intro">
-                    To get started, edit <code>src/App.js</code> and save to reload.
+                    Created using <code>react-popup</code> npm module
                 </p>
                 <div className="row">
                     <button className="btn btn-success" onClick={this.renderDefault}>Launch Default Popup</button>

@@ -17,6 +17,7 @@ class CustomContent extends Component {
             <div>
                 <h3>Custom Component Header</h3>
                 <img src={logo} className="App-logo" alt="logo" />
+                <p>This component is tied into the redux store to monitor count</p>
                 <SubComponent func={this.click.bind(this)} someText={this.props.someText} />
             </div>
         )
