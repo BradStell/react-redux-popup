@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Popup from 'react-popup';
-
-import CustomContent from './CustomContent';
 import Provider from 'react-popup';
 
-import logo from './logo.svg';
-import './App.css';
-import './popup.css';
+import CustomContent from './CustomContent';
+
+import logo from '../content/images/logo.svg';
+import '../content/css/App.css';
+import '../content/css/popup.css';
 
 
 class App extends Component {
@@ -44,8 +44,7 @@ class App extends Component {
             title: null,
             content: 'No overlay, buttons on left',
             buttons: {
-                left: ['ok'],
-                right: ['cancel']
+                left: ['ok', 'cancel']
             },
             noOverlay: true
         });

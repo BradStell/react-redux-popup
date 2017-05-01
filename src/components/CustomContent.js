@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
+
 import SubComponent from './SubComponent';
-import logo from './logo.svg';
-import * as actions from './customComponentActions';
+import logo from '../content/images/logo.svg';
+import * as actions from '../store/customComponentActions';
 
 class CustomContent extends Component {
 
